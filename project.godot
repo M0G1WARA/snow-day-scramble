@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="Snow Day Scramble"
+run/main_scene="uid://d0h5124od1no"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Transition="*res://Scenes/Transition/transition.tscn"
+
+[gui]
+
+theme/custom="uid://bvn42ilbd4w37"
 
 [rendering]
 

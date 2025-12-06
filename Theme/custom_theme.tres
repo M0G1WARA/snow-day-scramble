@@ -1,0 +1,15 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://bvn42ilbd4w37"]
+
+[ext_resource type="FontFile" uid="uid://c5t5nld8t63ev" path="res://Fonts/JollySweater/JollySweaterRegular.ttf" id="1_ie4ej"]
+[ext_resource type="FontFile" uid="uid://byfdsvln0o6bu" path="res://Fonts/JollySweater/JollySweaterBold.ttf" id="2_aca26"]
+
+[resource]
+Label/fonts/font = ExtResource("1_ie4ej")
+MarginContainer/constants/margin_bottom = 32
+MarginContainer/constants/margin_left = 32
+MarginContainer/constants/margin_right = 32
+MarginContainer/constants/margin_top = 32
+Title/base_type = &"Label"
+Title/font_sizes/font_size = 64
+Title/fonts/font = ExtResource("2_aca26")
+VBoxContainer/constants/separation = 32
