@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://5337y1y5j0bw"]
+
+[ext_resource type="Texture2D" uid="uid://cskapo8ln7sby" path="res://Assets/Sprites/Christmas_Tree&Presents/Tree_256x384.png" id="1_oyxvi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y7o3q"]
+
+[node name="Tree" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_y7o3q")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oyxvi")
+hframes = 6
+vframes = 4
+frame = 1
